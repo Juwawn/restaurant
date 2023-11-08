@@ -65,7 +65,7 @@ body {
 }
 
 #headerSection2 {
-    padding: 10px 0;
+    padding: 20px 0;
     background-color: var(--red);
     background-image: var(--grad);
 }
@@ -91,7 +91,237 @@ body {
 
 
 .main-nav-item {
-    font-size: calc(10px + (16 - 10) * ((100vw - 300px) / (1600 - 300)));
+    font-size: calc(9px + (16 - 9) * ((100vw - 300px) / (1600 - 300)));
 }
 
+.main-nav-link {
+    color: var(--yellow);
+}
+
+.main-nav-link:hover {
+    padding: 8px 16px;
+    color: #000;
+    background-color: var(--yellow);
+    border-radius: 5px;
+}
+
+#headerSection3 {
+    padding: 28px 0;
+    background-color: var(--yellow);
+}
+
+.slogan {
+    margin: 0;
+    color: var(--subheading);
+    font-size: calc(22px + (26 - 22) * ((100vw - 300px) / (1600 - 300)));
+    font-weight: 200;
+}
+
+input[type="search"] {
+    background-color: var(--yellow);
+    border: none;
+}
+
+.search-group {
+    border: 1px solid var(--subheading);
+}
+
+.search-btn{
+    color: var(--subheading);
+}
+
+@media (min-width: 768px) {
+    .search-form {
+        margin-left: auto;
+        width: 50%;
+    }
+}
+
+@media (min-width: 992px) {
+    .search-form {
+        width: 30%
+    }
+}
+
+#carouselSection {
+    position: relative;
+    width: 100%;
+    height: auto;
+    background-color: #000;
+    background-image: url('../media/bozhin-karaivanov-m5Ft3bsalhQ-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.caro-container {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.tint {
+    width: 100%;
+    height: 800px;
+    background-color: #000;
+    opacity: 0.75;
+}
+
+#cardSection{
+    padding: 40px 0;
+    background-color: var(--gray);
+}
+
+.offer-heading {
+    margin-bottom: 50px;
+    color: var(--subheading);
+    font-weight: 600;
+}
+
+#offerSection {
+    padding: 40px 0;
+    color: var(--yellow);
+}
+
+
+.offer-icon, .offer-subheading {
+    color: var(--green);
+}
+
+.offer-subheading {
+    margin-bottom: 24px;
+    font-size: calc(12px + (20 - 12) * ((100vw - 300px) / (1600 - 300)));
+    font-weight: 700;
+}
+
+.offer {
+    font-size: 10px;
+}
+
+.offer-text {
+    color: var(--top-footer);
+    font-size: calc(10px + (14 - 10) * ((100vw - 300px) / (1600 - 300)));
+}
+
+.offer-link {
+    font-size: calc(10px + (14 - 10) * ((100vw - 300px) / (1600 - 300)));
+}
+
+
+@media (min-width: 760px) {
+    .offer-block {
+        width: 80%;
+    }
+}
+
+#clientSection {
+    padding: 30px 0;
+    background-color: var(--top-footer);
+}
+
+.client-col {
+    border-right: 1px solid var(--yellow);
+}
+
+@media (max-width: 767px) {
+    .client-col:nth-child(2) {
+        border-right: none;
+    }
+}
+
+.client {
+    color: var(--yellow);
+    font-size: calc(14px + (18 - 14) * ((100vw - 300px) / (1600 - 300)));
+}
+
+#client1 {
+    font-family: var(--client1);
+}
+
+#client2 {
+    font-family: var(--client2);
+}
+
+#client3 {
+    font-family: var(--client3);
+}
+
+#client4 {
+    font-family: var(--client2);
+}
+
+#client5 {
+    font-family: var(--client4);
+}
+
+#infoSection {
+    padding: 40px 0;
+    background-color: var(--mid-footer);
+}
+
+.footer-heading {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.ft-about-text, .blog-item, .address-item {
+    color: var(--footer-headings);
+    font-size: calc(10px + (14 - 10) * ((100vw - 300px) / (1600 - 300)));
+}
+
+.ft-link {
+    font-size: calc(10px + (14 - 10) * ((100vw - 300px) / (1600 - 300)));
+}
+
+.ft-about-text:first-child {
+    font-weight: 600;
+}
+
+.blog-list {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.blog-item:first-child {
+    padding-bottom: 15px;
+    border-bottom: 1px solid #aaa;
+}
+
+.blog-item:last-child {
+    padding-top: 15px;
+}
+
+.address-item:last-child {
+    margin-top: 24px;
+}
+
+#colophonSection {
+    padding: 30px 0;
+    background-color: var(--bottom-footer);
+}
+
+
+/* about page */
+
+#aboutMain {
+    padding: 48px 0;
+    background-color: var(--gray);
+}
+
+.about-block {
+    padding: 40px 20px 80px;
+    background-color: #fff;
+    box-shadow: 0px 5px 2px #888;
+}
+
+.about-h2 {
+    margin-bottom: 30px;
+    font-weight: 700;
+}
+
+.about-text {
+    color: #888;
+    font-size: calc(10px + (14 - 10) * ((100vw - 300px) / (1600 - 300)));
+}
 
